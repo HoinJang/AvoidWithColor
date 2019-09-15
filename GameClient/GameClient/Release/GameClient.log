@@ -1,0 +1,19 @@
+﻿  cGame.cpp
+c:\users\hoin8\desktop\termproject\gameclient\gameclient\cMainFw.h(18): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt\string.h(136): note: 'strcpy' 선언을 참조하십시오.
+cGame.cpp(27): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+cGame.cpp(29): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+cGame.cpp(78): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+cGame.cpp(80): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+cGame.cpp(183): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+cGame.cpp(189): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+cGame.cpp(252): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um\winsock2.h(1830): note: 'inet_addr' 선언을 참조하십시오.
+LINK : warning LNK4075: '/INCREMENTAL'이(가) '/LTCG' 사양으로 인해 무시됩니다.
+  코드를 생성하고 있습니다.
+  88 of 850 functions (10.4%) were compiled, the rest were copied from previous compilation.
+    20 functions were new in current compilation
+    14 functions had inline decision re-evaluated but remain unchanged
+  코드를 생성했습니다.
+  GameClient.vcxproj -> C:\Users\hoin8\Desktop\TermProject\GameClient\Release\GameClient.exe
+  GameClient.vcxproj -> C:\Users\hoin8\Desktop\TermProject\GameClient\Release\GameClient.pdb (Full PDB)

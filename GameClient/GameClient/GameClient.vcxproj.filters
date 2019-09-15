@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="GameClient">
+      <UniqueIdentifier>{c845fae8-35dc-48c6-aa4d-7eb609f78f22}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameClient\해더파일">
+      <UniqueIdentifier>{e0470bb6-cf40-401a-8c66-f52750722f38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameClient\winMain">
+      <UniqueIdentifier>{e6f395f2-d73a-43a8-9050-d6b08a742142}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameClient\InGame">
+      <UniqueIdentifier>{7b4a3946-3298-480d-a300-b1f37acc195f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameClient\InGame\cGame">
+      <UniqueIdentifier>{b62d7427-9472-4778-90ea-8f7edf46676a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameClient\InGame\cMenu">
+      <UniqueIdentifier>{24bdd08f-9212-4cbc-a1e8-01d8868906a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameClient\FrameWork">
+      <UniqueIdentifier>{b86392b7-2c04-42f9-9fa7-d554b79b8f6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameClient\FrameWork\cSprite">
+      <UniqueIdentifier>{b463a091-aaba-4e68-8346-30f10ebbddf8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameClient\FrameWork\cMain">
+      <UniqueIdentifier>{38b06f5f-79cd-4de2-ab22-cb087d39eebb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameClient\FrameWork\cMainFw">
+      <UniqueIdentifier>{3fc88303-8a4f-4568-9e25-4656b20dd007}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameClient\FrameWork\cSceneManager">
+      <UniqueIdentifier>{a5b0770d-98dc-4d5a-8775-06940e84013d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameClient\FrameWork\cSceneManager\cScene">
+      <UniqueIdentifier>{35750498-cdb6-427d-9e98-7bd90ce6e744}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameClient\FrameWork\cSingleton">
+      <UniqueIdentifier>{68fd461f-b856-4ab6-b521-a5b209748923}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameClient\FrameWork\cAnimation">
+      <UniqueIdentifier>{1debe098-7965-461f-b64e-237cae53bca3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameClient\InGame\cGame\cPlayer">
+      <UniqueIdentifier>{2eb62cd6-fe23-4127-a958-21c58181f70a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameClient\InGame\cGame\cObject">
+      <UniqueIdentifier>{5536d6e6-ae0c-41fd-a035-dd8c466948c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameClient\InGame\cGame\cBackGround">
+      <UniqueIdentifier>{a78932e4-7e7d-4c14-a70a-8797dbdb9df4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameClient\InGame\cGame\cHpMark">
+      <UniqueIdentifier>{fa335aea-f93c-4bdd-988a-21a3add657f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameClient\InGame\cWin">
+      <UniqueIdentifier>{b8fa2ba6-aa05-4f56-82ce-7cb445aebdc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameClient\InGame\cLose">
+      <UniqueIdentifier>{1ccd3699-58d7-4bd6-9fdf-24fc88f17631}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameClient\InGame\cEnd">
+      <UniqueIdentifier>{138ac811-389f-47eb-8951-1ac8cbe88199}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cSingleton.h">
+      <Filter>GameClient\FrameWork\cSingleton</Filter>
+    </ClInclude>
+    <ClInclude Include="cMyInclude.h">
+      <Filter>GameClient\해더파일</Filter>
+    </ClInclude>
+    <ClInclude Include="cMainFw.h">
+      <Filter>GameClient\FrameWork\cMainFw</Filter>
+    </ClInclude>
+    <ClInclude Include="cMain.h">
+      <Filter>GameClient\FrameWork\cMain</Filter>
+    </ClInclude>
+    <ClInclude Include="cScene.h">
+      <Filter>GameClient\FrameWork\cSceneManager\cScene</Filter>
+    </ClInclude>
+    <ClInclude Include="cSceneManager.h">
+      <Filter>GameClient\FrameWork\cSceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="cMyDefine.h">
+      <Filter>GameClient\해더파일</Filter>
+    </ClInclude>
+    <ClInclude Include="cMenu.h">
+      <Filter>GameClient\InGame\cMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="cSprite.h">
+      <Filter>GameClient\FrameWork\cSprite</Filter>
+    </ClInclude>
+    <ClInclude Include="cGame.h">
+      <Filter>GameClient\InGame\cGame</Filter>
+    </ClInclude>
+    <ClInclude Include="cPlayer.h">
+      <Filter>GameClient\InGame\cGame\cPlayer</Filter>
+    </ClInclude>
+    <ClInclude Include="cAnimation.h">
+      <Filter>GameClient\FrameWork\cAnimation</Filter>
+    </ClInclude>
+    <ClInclude Include="cObject.h">
+      <Filter>GameClient\InGame\cGame\cObject</Filter>
+    </ClInclude>
+    <ClInclude Include="cBackGround.h">
+      <Filter>GameClient\InGame\cGame\cBackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="cHpMark.h">
+      <Filter>GameClient\InGame\cGame\cHpMark</Filter>
+    </ClInclude>
+    <ClInclude Include="cWin.h">
+      <Filter>GameClient\InGame\cWin</Filter>
+    </ClInclude>
+    <ClInclude Include="cLose.h">
+      <Filter>GameClient\InGame\cLose</Filter>
+    </ClInclude>
+    <ClInclude Include="cEnd.h">
+      <Filter>GameClient\InGame\cEnd</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="winMain.cpp">
+      <Filter>GameClient\winMain</Filter>
+    </ClCompile>
+    <ClCompile Include="cMainFw.cpp">
+      <Filter>GameClient\FrameWork\cMainFw</Filter>
+    </ClCompile>
+    <ClCompile Include="cMain.cpp">
+      <Filter>GameClient\FrameWork\cMain</Filter>
+    </ClCompile>
+    <ClCompile Include="cSceneManager.cpp">
+      <Filter>GameClient\FrameWork\cSceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="cMenu.cpp">
+      <Filter>GameClient\InGame\cMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="cSprite.cpp">
+      <Filter>GameClient\FrameWork\cSprite</Filter>
+    </ClCompile>
+    <ClCompile Include="cGame.cpp">
+      <Filter>GameClient\InGame\cGame</Filter>
+    </ClCompile>
+    <ClCompile Include="cPlayer.cpp">
+      <Filter>GameClient\InGame\cGame\cPlayer</Filter>
+    </ClCompile>
+    <ClCompile Include="cAnimation.cpp">
+      <Filter>GameClient\FrameWork\cAnimation</Filter>
+    </ClCompile>
+    <ClCompile Include="cObject.cpp">
+      <Filter>GameClient\InGame\cGame\cObject</Filter>
+    </ClCompile>
+    <ClCompile Include="cBackGround.cpp">
+      <Filter>GameClient\InGame\cGame\cBackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="cHpMark.cpp">
+      <Filter>GameClient\InGame\cGame\cHpMark</Filter>
+    </ClCompile>
+    <ClCompile Include="cWin.cpp">
+      <Filter>GameClient\InGame\cWin</Filter>
+    </ClCompile>
+    <ClCompile Include="cLose.cpp">
+      <Filter>GameClient\InGame\cLose</Filter>
+    </ClCompile>
+    <ClCompile Include="cEnd.cpp">
+      <Filter>GameClient\InGame\cEnd</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
